@@ -34,7 +34,7 @@ function zt_child_theme_enqueue_styles()
 //  function zt_child_theme_enqueue_styles() {
 // 	 $parenthandle = 'twentytwenty-style'; // This is 'twentytwenty-style' for the Twenty Twenty theme. Check the handle used in your parent theme and replace
 //      wp_enqueue_style( 'child-style', get_stylesheet_uri(),
-//          array( 'twentytwenty-style' ),
+//          array( $parenthandle ),
 //          wp_get_theme()->get('Version') // this only works if you have Version in the style header
 //      );
 // }
