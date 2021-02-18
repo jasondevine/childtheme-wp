@@ -12,7 +12,7 @@
 add_action('wp_enqueue_scripts', 'zt_child_theme_enqueue_styles');
 function zt_child_theme_enqueue_styles()
 {
-    $parenthandle = 'twentytwenty-style'; // This is 'twentytwenty-style' for the Twenty Twenty theme. Check the handle used in your parent theme and replace
+    $parenthandle = 'twenty-twenty-one-style'; // This is 'twentytwenty-style' for the Twenty Twenty theme. Check the handle used in your parent theme and replace
     $theme = wp_get_theme();
     wp_enqueue_style(
         $parenthandle,
